@@ -71,3 +71,6 @@ console.log(Array1);
 
 */
 
+for (let i = 0; i < 21; i++) {
+    console.log('*'.repeat(i));
+}
