@@ -41,17 +41,19 @@ console.log(arr1);
 */
 
 let Array1 = [];
+//1
 
 for (let i = 0; i < 5; i++) {
     Array1[i] = Math.round(Math.random() * 10);
 }
+//2
 console.log(Array1);
 let Summ = 0;
 for (let i = 0; i < Array1.length; i++) {
     Summ = Array1[i] + Summ;
 }
 console.log(Summ);
-
+//3
 let swap_bool = true;
 let temp = 0;
 while (swap_bool) {
@@ -66,13 +68,18 @@ while (swap_bool) {
     };
 };
 console.log(Array1);
+//4
+for (let i = 0; i < Array1.length; i++) {
+
+    Array1[i] === 3 ? console.log("Есть число 3") : console.log("-");
+}
 
 
 
 /*
 Необходимо вывести горку в консоль (используя цикл for),
  как показано на рисунке, только у вашей горки должно быть 20 рядов, а не 5:
-
+ 
 */
 
 for (let i = 0; i < 21; i++) {
